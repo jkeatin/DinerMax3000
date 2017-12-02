@@ -12,7 +12,15 @@ namespace DinerMax3000console
 
         public double Total
         {
-
+            get
+            {
+                double calculatedTotal = 0;
+                foreach (MenuItem item in items)
+                {
+                    calculatedTotal = calculatedTotal + item.Price;
+                }
+                return calculatedTotal;
+            }
         }
     }
 }

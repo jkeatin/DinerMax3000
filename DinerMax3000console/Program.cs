@@ -35,6 +35,18 @@ namespace DinerMax3000console
             {
                 hungryGuestOrder.items.Add(currentItem);
             }
+
+            Console.WriteLine("The total is:" + hungryGuestOrder.Total);
+            Console.ReadKey();
+
+            try
+            {
+                outsideDrinks.AddMenuItem("Himkok", "9 out of 10 people recommend staying away from this drink", 0);
+            }
+            catch (Exception thrownException)
+            {
+                Console.WriteLine(thrownException.Message);
+            }
         }
     }
 }
