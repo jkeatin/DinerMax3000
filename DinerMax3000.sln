@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000console", "DinerMax3000console\DinerMax3000console.csproj", "{32942C4F-AB3A-4790-9A65-36CBD0CE4E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32942C4F-AB3A-4790-9A65-36CBD0CE4E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32942C4F-AB3A-4790-9A65-36CBD0CE4E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32942C4F-AB3A-4790-9A65-36CBD0CE4E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32942C4F-AB3A-4790-9A65-36CBD0CE4E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BAFF44-6081-4CCE-B833-DB9634727357}
+	EndGlobalSection
+EndGlobal
